@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, rgb(10, 139, 139), rgb(8, 69, 109));
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    
+}
+p{
+    margin-top: -10%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container { 
+    text-align: center;
+    margin-top: -20%;
+    
+}
+
+input {
+    
+    padding: 8px;
+    margin-right: 8px;
+    margin-right: 8px;
+    border-radius: 5px;
+    
+}
+
+button{
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.delete-btn {
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    position: absolute;
+    margin-left:29%;
+}
+
+.edit-btn{
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    position: absolute;
+    margin-left:24%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+   color: rgb(65, 44, 1);
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
